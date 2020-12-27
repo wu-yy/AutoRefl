@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wuyongyu02/CLionProjects/test_demo/include/FiledTraits.h
+type_traits
+-
+
+/Users/wuyongyu02/CLionProjects/test_demo/main.cpp
+iostream
+-
+thread
+-
+include/FiledTraits.h
+/Users/wuyongyu02/CLionProjects/test_demo/include/FiledTraits.h
+stdio.h
+-
+unistd.h
+-
+vector
+-
+
